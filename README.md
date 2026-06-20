@@ -1,22 +1,64 @@
-# CODING AGENTS: READ THIS FIRST
+# Landing Page - Luis Aguilar
 
-This is a **handoff bundle** from Claude Design (claude.ai/design).
+Especialista en **marketing digital** y **paid media** con +8 años de experiencia en agencias top del mundo.
 
-A user mocked up designs in HTML/CSS/JS using an AI design tool, then exported this bundle so a coding agent can implement the designs for real.
+## 🌐 URL Publicada
+https://luisaguilar09.github.io/landing-portafolio/
 
-## What you should do — IMPORTANT
+## 📁 Estructura del Repo
 
-**Read `landing-page-luis-aguilar/project/Landing Luis Aguilar.dc.html` in full.** The user had this file open when they triggered the handoff, so it's almost certainly the primary design they want built. Read it top to bottom — don't skim. Then **follow its imports**: open every file it pulls in (shared components, CSS, scripts) so you understand how the pieces fit together before you start implementing.
+```
+landing-portafolio/
+├── index.html          # Página principal publicada
+├── images/             # Carpeta con todas las imágenes
+│   ├── luis-aguilar.png
+│   ├── luis-whatsapp.jpg
+│   ├── luis-meta.jpg
+│   ├── luis-panel.jpg
+│   ├── luis-connect1.jpg
+│   ├── luis-connect2.jpg
+│   └── certs/          # Certificaciones
+│       ├── meta-buying.png
+│       ├── meta-planning.png
+│       ├── tiktok-buying.png
+│       ├── meta-measurement.png
+│       └── meta-technical.png
+├── README.md           # Este archivo
+└── support.js          # Scripts de soporte
+└── image-slot.js       # Manejo de slots de imagen
+```
 
-**If anything is ambiguous, ask the user to confirm before you start implementing.** It's much cheaper to clarify scope up front than to build the wrong thing.
+## 🚀 Cómo Funciona
 
-## About the design files
+1. **index.html** es la página principal — se publica automáticamente en GitHub Pages
+2. **images/** debe contener todas las imágenes referenciadas en index.html
+3. GitHub Pages sirve el contenido desde la rama `main` en: `https://luisaguilar09.github.io/landing-portafolio/`
 
-The design medium is **HTML/CSS/JS** — these are prototypes, not production code. Your job is to **recreate them pixel-perfectly** in whatever technology makes sense for the target codebase (React, Vue, native, whatever fits). Match the visual output; don't copy the prototype's internal structure unless it happens to fit.
+## 📸 Importante: Las Imágenes
 
-**Don't render these files in a browser or take screenshots unless the user asks you to.** Everything you need — dimensions, colors, layout rules — is spelled out in the source. Read the HTML and CSS directly; a screenshot won't tell you anything they don't.
+Las imágenes deben estar en la carpeta `images/` en la raíz del repositorio. Si subes archivos como lo hiciste con index.html:
+- Ve a https://github.com/luisaguilar09/landing-portafolio
+- Click **"Add file"** → **"Upload files"**
+- Arrastra la carpeta `images/` completa o los archivos individuales
+- Commit a `main`
 
-## Bundle contents
+Los nombres de las imágenes deben coincidir exactamente con los referenciados en index.html (con mayúsculas/minúsculas correctas).
 
-- `landing-page-luis-aguilar/README.md` — this file
-- `landing-page-luis-aguilar/project/` — the `Landing page Luis Aguilar` project files (HTML prototypes, assets, components)
+## ✅ Checklist de Deploy
+
+- [x] index.html en main
+- [ ] Carpeta images/ con todos los archivos
+- [ ] GitHub Pages habilitado (rama: main)
+- [ ] Verificar en https://luisaguilar09.github.io/landing-portafolio/
+
+## 🔗 Enlaces Rápidos
+
+- **Portfolio**: https://luisaguilar09.github.io/landing-portafolio/
+- **GitHub**: https://github.com/luisaguilar09/landing-portafolio
+- **Instagram**: https://www.instagram.com/luisaguilar.mkt/
+- **TikTok**: https://www.tiktok.com/@luisaguilar.mkt
+- **LinkedIn**: https://www.linkedin.com/in/joseluis-martinez-aguilar/
+
+---
+
+**Última actualización**: 2026-06-20
